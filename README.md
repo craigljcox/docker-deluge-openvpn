@@ -3,10 +3,6 @@ This was forked from sgtsquiggs/docker-deluge-openvpn when they announced no int
 
 # OpenVPN and Deluge with WebUI
 
-[![Docker Automated build](https://img.shields.io/docker/automated/sgtsquiggs/deluge-openvpn.svg)](https://hub.docker.com/r/sgtsquiggs/deluge-openvpn/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/sgtsquiggs/deluge-openvpn.svg)](https://hub.docker.com/r/sgtsquiggs/deluge-openvpn/)
-
-
 This container contains OpenVPN and Deluge with a configuration
 where Deluge is running only when OpenVPN has an active tunnel.
 It bundles configuration files for many popular VPN providers to make the setup easier.
