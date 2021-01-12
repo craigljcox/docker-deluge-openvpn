@@ -1,8 +1,5 @@
-# This repo is looking for a new maintainer!
-I don't have the time to maintain this - it was never tested outside of PIA and there are a lot of features in the readme that were never tested w/ deluge.
-I am currently maintaining [sgtsquiggs/deluge-pia](https://github.com/sgtsquiggs/docker-deluge-pia) instead.
-Please feel free to fork this if you're using another VPN!
-
+# This is mostly to maintain TORGUARD related objects. I have no interest in the other ones.
+This was forked from sgtsquiggs/docker-deluge-openvpn when they announced no intent to maintain. I only use TORGUARD and the latest push for PIA broke the OpenVPN connection.
 
 # OpenVPN and Deluge with WebUI
 
