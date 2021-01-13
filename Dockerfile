@@ -1,5 +1,5 @@
 FROM linuxserver/deluge:latest
-LABEL maintainer="Matthew Crenshaw"
+LABEL maintainer=""
 
 VOLUME /config
 VOLUME /downloads
