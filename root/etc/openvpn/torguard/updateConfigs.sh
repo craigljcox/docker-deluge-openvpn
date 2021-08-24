@@ -21,5 +21,10 @@ sed -i "s/ca ca.crt/ca \/etc\/openvpn\/torguard\/ca.crt/" *.ovpn
 sed -i "s/tls-auth ta.key/tls-auth \/etc\/openvpn\/torguard\/ta.key/" *.ovpn
 sed -i "s/auth-user-pass/auth-user-pass \/config\/openvpn-credentials.txt/" *.ovpn
 
+# Remove incompatible directives
+sed -i "s/^block-outside-dns/# block-outside-dns/" *.ovpn
+sed -i "s/^keepalive/# keepalive/" *.ovpn
+sed -i "s/^proto udp/proto tcp/" *.ovpn
+
 # Create symlink for default.ovpn
 ln -s Netherlands.ovpn default.ovpn
